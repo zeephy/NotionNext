@@ -13,7 +13,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '👋Hi，我是空格,产品星球是一个阅读空间,关注科技、产品、设计、效率,星球驿站收录了500+篇文章，开始你的阅读吧！',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '👋Hi，我是空格,一个产品经理,产品星球关注科技、产品、设计、效率,星球驿站收录了500+篇文章,订阅用户请查看右上角「专栏」,开始你的星球之旅吧',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
